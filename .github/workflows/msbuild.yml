@@ -1,10 +1,11 @@
 name: MSBuild
- 
-on:
-  push:
-     branches: [ "master" ]
- # pull_request:
-   # branches: [ "master" ]
+permissions: 
+  contents: read
+true: 
+  pull_request: 
+    branches: branch1
+    types: 
+      - closed
 
 env:
   # Path to the solution file relative to the root of the project.
