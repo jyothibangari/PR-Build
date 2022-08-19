@@ -1,7 +1,7 @@
 name: MSBuild
 permissions: 
   contents: read
-true: 
+on: 
   pull_request: 
     branches: branch1
     types: 
